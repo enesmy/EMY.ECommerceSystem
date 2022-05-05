@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMY.ECommerceSystem.Presentation.API", "Api\Presentation\EMY.ECommerceSystem.Presentation.API\EMY.ECommerceSystem.Presentation.API.csproj", "{2A6DBE60-C903-4F6C-92A4-B5F0EE8C6269}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{421CD934-376E-4DC6-A278-04C2B30B7D99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
