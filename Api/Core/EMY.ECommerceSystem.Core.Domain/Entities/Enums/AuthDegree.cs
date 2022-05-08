@@ -1,8 +1,7 @@
-﻿namespace EMY.ECommerceSystem.Core.Domain.Enums.Entities
+﻿namespace EMY.ECommerceSystem.Core.Domain.Entities.Enums
 {
     public enum AuthDegree
     {
-
         Read = 1,
         Write = 2,
         Delete = 3,

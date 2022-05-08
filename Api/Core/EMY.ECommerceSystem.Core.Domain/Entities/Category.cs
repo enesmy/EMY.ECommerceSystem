@@ -1,8 +1,10 @@
 ﻿using EMY.ECommerceSystem.Core.Domain.Entities.Common;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EMY.ECommerceSystem.Core.Domain.Entities
 {
+    [Table("tblCategories", Schema = "product")]
     public class Category : BaseEntity
     {
         [Key]

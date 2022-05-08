@@ -1,4 +1,4 @@
-﻿namespace EMY.ECommerceSystem.Core.Domain.Enums.Entities
+﻿namespace EMY.ECommerceSystem.Core.Domain.Entities.Enums
 {
     public enum UserStatus
     {

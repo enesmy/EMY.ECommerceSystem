@@ -15,15 +15,22 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMY.ECommerceSystem.Core.Ap
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7DD9BC4D-080D-4CC0-9E92-A88AB900FA1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMY.ECommerceSystem.Infrastructure.Infrastructure", "Api\Infrastructure\EMY.ECommerceSystem.Infrastructure.Infrastructure\EMY.ECommerceSystem.Infrastructure.Infrastructure.csproj", "{CC1E7AD9-8DD7-4773-B56B-97ED51855458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMY.ECommerceSystem.Infrastructure.Infrastructure", "Api\Infrastructure\EMY.ECommerceSystem.Infrastructure.Infrastructure\EMY.ECommerceSystem.Infrastructure.Infrastructure.csproj", "{CC1E7AD9-8DD7-4773-B56B-97ED51855458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMY.ECommerceSystem.Infrastructure.Persistence", "Api\Infrastructure\EMY.ECommerceSystem.Infrastructure.Persistence\EMY.ECommerceSystem.Infrastructure.Persistence.csproj", "{414A9C0D-79A4-49FD-AF1C-6F96254CAA1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMY.ECommerceSystem.Infrastructure.Persistence", "Api\Infrastructure\EMY.ECommerceSystem.Infrastructure.Persistence\EMY.ECommerceSystem.Infrastructure.Persistence.csproj", "{414A9C0D-79A4-49FD-AF1C-6F96254CAA1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{618FC733-A816-4411-8F7E-8B0AD0B2E34D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMY.ECommerceSystem.Presentation.API", "Api\Presentation\EMY.ECommerceSystem.Presentation.API\EMY.ECommerceSystem.Presentation.API.csproj", "{2A6DBE60-C903-4F6C-92A4-B5F0EE8C6269}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMY.ECommerceSystem.Presentation.API", "Api\Presentation\EMY.ECommerceSystem.Presentation.API\EMY.ECommerceSystem.Presentation.API.csproj", "{2A6DBE60-C903-4F6C-92A4-B5F0EE8C6269}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{421CD934-376E-4DC6-A278-04C2B30B7D99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{756166EA-A053-4D06-BBC9-60F46E0F2CD6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMY.ECommerceSystem.Tests.DatabaseRegistrationTests", "Tests\EMY.ECommerceSystem.Tests.DatabaseRegistrationTests\EMY.ECommerceSystem.Tests.DatabaseRegistrationTests.csproj", "{B0425AC2-355B-44DF-B822-42F31A5E73A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +58,10 @@ Global
 		{2A6DBE60-C903-4F6C-92A4-B5F0EE8C6269}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A6DBE60-C903-4F6C-92A4-B5F0EE8C6269}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A6DBE60-C903-4F6C-92A4-B5F0EE8C6269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0425AC2-355B-44DF-B822-42F31A5E73A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0425AC2-355B-44DF-B822-42F31A5E73A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0425AC2-355B-44DF-B822-42F31A5E73A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0425AC2-355B-44DF-B822-42F31A5E73A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +75,7 @@ Global
 		{414A9C0D-79A4-49FD-AF1C-6F96254CAA1B} = {7DD9BC4D-080D-4CC0-9E92-A88AB900FA1E}
 		{618FC733-A816-4411-8F7E-8B0AD0B2E34D} = {4B750AA5-EBF8-4916-851F-6616C90254B5}
 		{2A6DBE60-C903-4F6C-92A4-B5F0EE8C6269} = {618FC733-A816-4411-8F7E-8B0AD0B2E34D}
+		{B0425AC2-355B-44DF-B822-42F31A5E73A7} = {421CD934-376E-4DC6-A278-04C2B30B7D99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9F91C58F-7DAD-48A2-8C08-F1589E924F94}

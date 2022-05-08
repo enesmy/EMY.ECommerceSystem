@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost;Database=dbECommerceAPI;Trusted_Connection=True;"
+  }
+}

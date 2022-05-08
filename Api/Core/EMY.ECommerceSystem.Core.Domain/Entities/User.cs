@@ -1,17 +1,16 @@
 ﻿using EMY.ECommerceSystem.Core.Domain.Entities.Common;
-using EMY.ECommerceSystem.Core.Domain.Enums.Entities;
+using EMY.ECommerceSystem.Core.Domain.Entities.Enums;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Security.Cryptography;
-using System.Text;
 
 namespace EMY.ECommerceSystem.Core.Domain.Entities
 {
+    [Table("tblUsers", Schema = "profile")]
     public class User : BaseEntity
     {
-
-        public Guid Id { get; set; }
+        [Key]
+        public Guid UserID { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
         [EmailAddress]
@@ -24,7 +23,7 @@ namespace EMY.ECommerceSystem.Core.Domain.Entities
         [DefaultValue(0)]
         public UserStatus UserStatus { get; set; }
         public Guid UserGroupID { get; set; }
-        public UserGroup Group { get; set; }
+       [ForeignKey("UserGroupID")] public virtual UserGroup Group { get; set; }
         public string UserImage { get; set; }
         public string UserToken { get; set; }
         public decimal UserBalance { get; set; }
@@ -43,7 +42,7 @@ namespace EMY.ECommerceSystem.Core.Domain.Entities
             string pswhash = SystemCryptography.Encrypt(password);
             return (pswhash == PasswordStored);
         }
-      
+
 
     }
 }

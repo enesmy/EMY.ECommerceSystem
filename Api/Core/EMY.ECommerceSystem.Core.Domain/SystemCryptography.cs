@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Security.Cryptography;
+﻿using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace EMY.ECommerceSystem.Core.Domain
 {
@@ -18,7 +13,7 @@ namespace EMY.ECommerceSystem.Core.Domain
                 var generatedHash = sha1.ComputeHash(hash);
 
                 //begin salt
-                generatedHash = generatedHash.Select(x => (byte)(x > 127 ? ++x: --x)).ToArray();
+                generatedHash = generatedHash.Select(x => (byte)(x > 127 ? ++x : --x)).ToArray();
                 //end salt
 
 
